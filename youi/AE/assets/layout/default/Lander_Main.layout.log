@@ -1,0 +1,143 @@
+activecomp {
+  name: "Lander_Main"
+  width: 1920
+  height: 1080
+  defaultcameradistance: 2666.6667
+  layer {
+    name: "bokeh_bg_large.png"
+    id: 65080
+    sourceid: 131047
+    transform {
+      anchorPoint {
+        x: 640
+        y: 360
+        z: 0
+      }
+      scale {
+        x: 1.86
+        y: 1.86
+        z: 1
+      }
+      position {
+        x: 942
+        y: 473
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0.8
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "List-Main"
+    id: 65081
+    sourceid: 15012745
+    transform {
+      anchorPoint {
+        x: 960
+        y: 465
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 960
+        y: 480
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Btn-Profile"
+    id: 65082
+    sourceid: 199451
+    transform {
+      anchorPoint {
+        x: 32
+        y: 32
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 1846.8936
+        y: -66
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  bgcolor {
+    alpha: 1
+    red: 0.086274509803921567
+    green: 0.11372549019607843
+    blue: 0.14509803921568629
+  }
+  childtemplates: "Lander_List-Main"
+  childtemplates: "Lander_Btn-Profile"
+}
+sources {
+  uid: 131047
+  srctype: AE_IMAGE_SRC
+  name: "bokeh_bg_large.png"
+  width: 1280
+  height: 720
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 15012745
+  srctype: AE_COMP_SRC
+  name: "Lander_List-Main.layout"
+  width: 1920
+  height: 930
+  copy_source: true
+}
+sources {
+  uid: 199451
+  srctype: AE_COMP_SRC
+  name: "Lander_Btn-Profile.layout"
+  width: 64
+  height: 64
+  copy_source: true
+}

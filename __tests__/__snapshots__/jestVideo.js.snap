@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+    }
+  }
+>
+  <Composition
+    onTimelinesLoaded={[Function]}
+    source="Player_VideoRef"
+  >
+    <VideoRef
+      metadata={Object {}}
+      name="Video-Surface-View"
+      onCurrentTimeUpdated={[Function]}
+      onDurationChanged={[Function]}
+      onPlaybackComplete={[Function]}
+      onReady={[Function]}
+      source={
+        Object {
+          "type": "HLS",
+          "uri": "http://link.theplatform.com/s/BpkrRC/ckSTzzdGO_K3",
+        }
+      }
+      src={
+        Object {
+          "drmInfo": undefined,
+          "drmScheme": undefined,
+          "isAsset": false,
+          "isNetwork": true,
+          "mainVer": 0,
+          "patchVer": 0,
+          "type": "HLS",
+          "uri": "http://link.theplatform.com/s/BpkrRC/ckSTzzdGO_K3",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "overflow": "hidden",
+          },
+          Object {
+            "height": 1080,
+            "position": "absolute",
+            "width": 1920,
+          },
+        ]
+      }
+      testID="VideoSurface"
+    />
+  </Composition>
+</View>
+`;

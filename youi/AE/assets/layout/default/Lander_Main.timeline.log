@@ -1,0 +1,515 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 65080
+  targetname: "bokeh_bg_large.png"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: POSITION
+  targetid: 65080
+  targetname: "bokeh_bg_large.png"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 942
+    fvalue2: 473
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -3
+    sInTangentY: -6.5
+    sInTangentZ: -0
+    sOutTangentX: 1.4998071
+    sOutTangentY: 3.2495821
+    sOutTangentZ: 0
+    fvalue1: 942
+    fvalue2: 473
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.3333334
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -3.7495177
+    sInTangentY: -8.1239548
+    sInTangentZ: 0
+    sOutTangentX: 3.7504823
+    sOutTangentY: 8.1260452
+    sOutTangentZ: 0
+    fvalue1: 950.99854
+    fvalue2: 540
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.65
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -1.5001929
+    sInTangentY: -3.2504179
+    sInTangentZ: 0
+    sOutTangentX: 0
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 540
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: 0
+    sInTangentY: 0
+    sInTangentZ: 0
+    sOutTangentX: 0
+    sOutTangentY: -16.333334
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 540
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -0
+    sInTangentY: 16.333334
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: -16.333334
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 442
+    fvalue3: 0
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: OPACITY
+  targetid: 65080
+  targetname: "bokeh_bg_large.png"
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.8
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.8
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1.3333334
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.8
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1.65
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: SCALE
+  targetid: 65080
+  targetname: "bokeh_bg_large.png"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1.86
+    fvalue2: 1.86
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1.86
+    fvalue2: 1.86
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.3333334
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1.56
+    fvalue2: 1.56
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.65
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1.5
+    fvalue2: 1.5
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1.5
+    fvalue2: 1.5
+    fvalue3: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1.77
+    fvalue2: 1.77
+    fvalue3: 1
+  }
+  trackName: "Scale"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 65081
+  targetname: "List-Main"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: POSITION
+  targetid: 65081
+  targetname: "List-Main"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 960
+    fvalue2: 480
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -2.5
+    sInTangentY: -7.5
+    sInTangentZ: -0
+    sOutTangentX: 0.87310755
+    sOutTangentY: 2.6193228
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 480
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.3666667
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: 0.41734484
+    sInTangentY: -36.970741
+    sInTangentZ: 0
+    sOutTangentX: -0.23935172
+    sOutTangentY: 21.203117
+    sOutTangentZ: 0
+    fvalue1: 958.84009
+    fvalue2: 580
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.55
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -1.2444686
+    sInTangentY: -4.22976
+    sInTangentZ: 0
+    sOutTangentX: 2.7988083
+    sOutTangentY: 9.5127258
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 610
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -1.1261559
+    sInTangentY: 2.4024658
+    sInTangentZ: 0
+    sOutTangentX: 2.5
+    sOutTangentY: -5.3333335
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 610
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -0
+    sInTangentY: 21.666666
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: -21.666666
+    sOutTangentZ: 0
+    fvalue1: 960
+    fvalue2: 480
+    fvalue3: 0
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: OPACITY
+  targetid: 65081
+  targetname: "List-Main"
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1.3666667
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0.25410259
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1.65
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  trackName: "Opacity"
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 65082
+  targetname: "Btn-Profile"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: POSITION
+  targetid: 65082
+  targetname: "Btn-Profile"
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1846.8936
+    fvalue2: -66
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -0
+    sInTangentY: -22.000002
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: 22.000002
+    sOutTangentZ: 0
+    fvalue1: 1846.8936
+    fvalue2: -66
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 1.65
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -0
+    sInTangentY: -22.000002
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: 0
+    sOutTangentZ: 0
+    fvalue1: 1846.8936
+    fvalue2: 66.000015
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: 0
+    sInTangentY: 0
+    sInTangentZ: 0
+    sOutTangentX: 0
+    sOutTangentY: -22.000002
+    sOutTangentZ: 0
+    fvalue1: 1846.8936
+    fvalue2: 66.000015
+    fvalue3: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_VECTOR_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    sInTangentX: -0
+    sInTangentY: 22.000002
+    sInTangentZ: -0
+    sOutTangentX: 0
+    sOutTangentY: -22.000002
+    sOutTangentZ: 0
+    fvalue1: 1846.8936
+    fvalue2: -66
+    fvalue3: 0
+  }
+  trackName: "Position"
+}
+tracks {
+  binding: OPACITY
+  targetid: 65082
+  targetname: "Btn-Profile"
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 1.65
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 2
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 1
+  }
+  keytimes {
+    datatype: AE_FLOAT_DATA
+    timeOffset: 2.6333334
+    inttype: AE_INTERP_LINEAR
+    fvalue1: 0
+  }
+  trackName: "Opacity"
+}
+markers {
+  starttime: 1
+  duration: 0.8
+  name: "In"
+  tracksSelection {
+    targetid: 65080
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 65080
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 65080
+    binding: SCALE
+  }
+  tracksSelection {
+    targetid: 65081
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 65081
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 65082
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 65082
+    binding: OPACITY
+  }
+  alltracks: false
+  looping: false
+}
+markers {
+  starttime: 2
+  duration: 0.63333333
+  name: "Out"
+  tracksSelection {
+    targetid: 65080
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 65080
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 65080
+    binding: SCALE
+  }
+  tracksSelection {
+    targetid: 65081
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 65081
+    binding: OPACITY
+  }
+  tracksSelection {
+    targetid: 65082
+    binding: POSITION
+  }
+  tracksSelection {
+    targetid: 65082
+    binding: OPACITY
+  }
+  alltracks: false
+  looping: false
+}

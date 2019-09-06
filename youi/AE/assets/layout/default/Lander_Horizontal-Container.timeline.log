@@ -1,0 +1,44 @@
+tracks {
+  binding: IS_VISIBLE
+  targetid: 15012773
+  targetname: "List-Horizontal"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+tracks {
+  binding: IS_VISIBLE
+  targetid: 15012774
+  targetname: "Popular Movies"
+  keytimes {
+    datatype: AE_INT_DATA
+    timeOffset: 0
+    inttype: AE_INTERP_HOLD
+    ivalue1: 1
+  }
+}
+markers {
+  starttime: 1
+  duration: 0.8
+  name: "In"
+  alltracks: false
+  looping: false
+  properties {
+    key: "recursive"
+    value: "true"
+  }
+}
+markers {
+  starttime: 2
+  duration: 0.63333333
+  name: "Out"
+  alltracks: false
+  looping: false
+  properties {
+    key: "recursive"
+    value: "true"
+  }
+}

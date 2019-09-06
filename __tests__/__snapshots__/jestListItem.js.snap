@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<YiPushButtonView
+  onCompositionDidLoad={[Function]}
+  onPress={[Function]}
+  onTimelinesLoaded={[Function]}
+  testID={1}
+>
+  <YiImageView
+    onTimelinesLoaded={[Function]}
+    source={
+      Object {
+        "uri": "https://image.tmdb.org/t/p/w342undefined",
+      }
+    }
+  />
+</YiPushButtonView>
+`;

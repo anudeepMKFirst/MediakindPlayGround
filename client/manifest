@@ -1,0 +1,49 @@
+## See Manifest Documentation at https://sdkdocs.roku.com/display/sdkdoc/Roku+Channel+Manifest
+#=============================================================================================
+
+# Channel Details:
+#=================
+title=React Native Sample App
+major_version=1
+minor_version=0
+build_version=00001
+ 
+# Channel Assets, Splash / Loading Screen Artwork:
+#=================================================
+
+# HD 720p assets
+mm_icon_focus_hd=pkg:/images/mm_icon_focus_hd.jpg
+splash_screen_hd=pkg:/images/Splash_HD.png
+
+# Optional HD 1080p assets
+splash_screen_fhd=pkg:/images/Splash_FHD.png
+
+# SD 480p assets
+# Note: By specifying the HD 720p assets here, Roku will know to scale both the assets and the app
+#       This allows for universal scaling support
+mm_icon_focus_sd=pkg:/images/mm_icon_focus_hd.jpg
+splash_screen_sd=pkg:/images/Splash_HD.png
+
+# Optional Splash Background Color / Display Time Configuration
+splash_color=#161D25
+splash_min_time=0
+
+# Optional Resolution Configuration
+# The default setting is ui_resolutions=sd,hd 
+# sd Applications designed for standard definition 720x480 
+# hd Applications designed for high definition 1280x720
+# fhd Applications designed for full high definition 1920x1080
+ui_resolutions=hd
+ 
+## You.i Specific
+#================
+
+host=v101e1.vp-qa.youi-cloud-test.com
+port=80
+
+bs_const=ENABLE_DEBUG_JSON=false;ENABLE_IAP_START_UP=false
+
+secure=true
+shared_secret=testSharedSecret
+
+background_color=0x161D25FF

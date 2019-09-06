@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+Array [
+  <Composition
+    onTimelinesLoaded={[Function]}
+    source="Lander_Main"
+  >
+    <TimelineRef
+      name="In"
+      onAborted={[Function]}
+      onCompleted={[Function]}
+      onCompletedForward={[Function]}
+      onCompletedReverse={[Function]}
+      onCompositionDidLoad={[Function]}
+      onPaused={[Function]}
+      onPausedForward={[Function]}
+      onPausedReverse={[Function]}
+      onPlay={[Function]}
+      onPlayForward={[Function]}
+      onPlayReverse={[Function]}
+      onStarted={[Function]}
+      onStartedForward={[Function]}
+      onStartedReverse={[Function]}
+    />
+    <TimelineRef
+      name="Out"
+      onAborted={[Function]}
+      onCompleted={[Function]}
+      onCompletedForward={[Function]}
+      onCompletedReverse={[Function]}
+      onCompositionDidLoad={[Function]}
+      onPaused={[Function]}
+      onPausedForward={[Function]}
+      onPausedReverse={[Function]}
+      onPlay={[Function]}
+      onPlayForward={[Function]}
+      onPlayReverse={[Function]}
+      onStarted={[Function]}
+      onStartedForward={[Function]}
+      onStartedReverse={[Function]}
+    />
+    <ListRef
+      DEPRECATED_sendUpdatedChildFrames={false}
+      alwaysBounceHorizontal={false}
+      alwaysBounceVertical={true}
+      data={Array []}
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={null}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      name="List-Main"
+      numColumns={1}
+      onContentSizeChange={null}
+      onEndReachedThreshold={2}
+      onLayout={[MockFunction]}
+      onMomentumScrollBegin={[MockFunction]}
+      onMomentumScrollEnd={[MockFunction]}
+      onResponderGrant={[MockFunction]}
+      onResponderReject={[MockFunction]}
+      onResponderRelease={[MockFunction]}
+      onResponderTerminationRequest={[MockFunction]}
+      onScroll={[MockFunction]}
+      onScrollBeginDrag={[MockFunction]}
+      onScrollEndDrag={[MockFunction]}
+      onScrollShouldSetResponder={[MockFunction]}
+      onStartShouldSetResponder={[MockFunction]}
+      onStartShouldSetResponderCapture={[MockFunction]}
+      onTimelinesLoaded={[Function]}
+      onTouchCancel={[MockFunction]}
+      onTouchEnd={[MockFunction]}
+      onTouchMove={[MockFunction]}
+      onTouchStart={[MockFunction]}
+      renderItem={[Function]}
+      renderScrollComponent={[Function]}
+      scrollBarThumbImage={null}
+      scrollEnabled={true}
+      scrollEventThrottle={50}
+      sendMomentumEvents={true}
+      snapToAlignment="start"
+      snapToInterval={130}
+      stickyHeaderIndices={Array []}
+      style={
+        Array [
+          Object {
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "overflow": "scroll",
+          },
+          undefined,
+        ]
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <ScrollContentData
+        collapsable={false}
+        onLayout={[MockFunction]}
+        style={
+          Array [
+            false,
+            undefined,
+          ]
+        }
+      />
+    </ListRef>
+    <ViewRef
+      name="List-Main"
+      onCompositionDidLoad={[Function]}
+      onTimelinesLoaded={[Function]}
+    />
+    <YiPushButtonView
+      name="Btn-Profile"
+      onCompositionDidLoad={[Function]}
+      onPress={[Function]}
+      onTimelinesLoaded={[Function]}
+    />
+  </Composition>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />,
+]
+`;

@@ -1,0 +1,179 @@
+activecomp {
+  name: "PDP_Btn-Profile"
+  width: 60
+  height: 60
+  defaultcameradistance: 83.333336
+  layer {
+    name: "Icon-Profile.png"
+    id: 68397
+    sourceid: 14881685
+    transform {
+      anchorPoint {
+        x: 21
+        y: 27.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 30
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Icon-Profile-Focus.png"
+    id: 68398
+    sourceid: 14881684
+    transform {
+      anchorPoint {
+        x: 21
+        y: 27.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 30
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Icon-Profile.png"
+    id: 68399
+    sourceid: 14881685
+    transform {
+      anchorPoint {
+        x: 21
+        y: 27.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 30
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0.3
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  layer {
+    name: "Icon-Profile-Focus.png"
+    id: 68400
+    sourceid: 14881684
+    transform {
+      anchorPoint {
+        x: 21
+        y: 27.5
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 30
+        y: 30
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+}
+sources {
+  uid: 14881685
+  srctype: AE_IMAGE_SRC
+  name: "Icon-Profile.png"
+  width: 42
+  height: 55
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}
+sources {
+  uid: 14881684
+  srctype: AE_IMAGE_SRC
+  name: "Icon-Profile-Focus.png"
+  width: 42
+  height: 55
+  numberOfFrames: 1
+  fps: 0
+  loops: 1
+  copy_source: true
+}

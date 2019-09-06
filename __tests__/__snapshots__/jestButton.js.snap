@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<YiPushButtonView
+  name="temp"
+  onCompositionDidLoad={[Function]}
+  onPress={[Function]}
+  onTimelinesLoaded={[Function]}
+>
+  <TimelineRef
+    name="FocusIn"
+    onAborted={[Function]}
+    onCompleted={[Function]}
+    onCompletedForward={[Function]}
+    onCompletedReverse={[Function]}
+    onCompositionDidLoad={[Function]}
+    onPaused={[Function]}
+    onPausedForward={[Function]}
+    onPausedReverse={[Function]}
+    onPlay={[Function]}
+    onPlayForward={[Function]}
+    onPlayReverse={[Function]}
+    onStarted={[Function]}
+    onStartedForward={[Function]}
+    onStartedReverse={[Function]}
+  />
+</YiPushButtonView>
+`;

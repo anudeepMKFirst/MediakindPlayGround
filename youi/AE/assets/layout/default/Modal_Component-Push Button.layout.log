@@ -1,0 +1,357 @@
+activecomp {
+  name: "Modal_Component-Push Button"
+  width: 342
+  height: 66
+  defaultcameradistance: 475
+  layer {
+    name: "Border-Unfocused-Bottom"
+    id: 12
+    sourceid: 44
+    transform {
+      anchorPoint {
+        x: 171
+        y: 4
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 18
+  }
+  layer {
+    name: "Border-Unfocused-Top"
+    id: 13
+    sourceid: 44
+    transform {
+      anchorPoint {
+        x: 171
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: -33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 18
+  }
+  layer {
+    name: "Border-Unfocused-Left"
+    id: 14
+    sourceid: 50
+    transform {
+      anchorPoint {
+        x: 0
+        y: 29
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: -171
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 18
+  }
+  layer {
+    name: "Border-Unfocused-Right"
+    id: 15
+    sourceid: 47
+    transform {
+      anchorPoint {
+        x: 4
+        y: 29
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 171
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 18
+  }
+  layer {
+    name: "Background-Selected"
+    id: 16
+    sourceid: 41
+    transform {
+      anchorPoint {
+        x: 171
+        y: 33
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 0
+        y: 0
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 0
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    parentid: 18
+  }
+  layer {
+    name: "Text"
+    id: 17
+    sourceid: -1
+    transform {
+      anchorPoint {
+        x: 142
+        y: 19.05765
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 171
+        y: 42
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+    textinfo {
+      justification: AE_TEXT_CENTER
+      fontSize: 26
+      fontColor {
+        alpha: 1
+        red: 1
+        green: 1
+        blue: 1
+      }
+      fontName: "ArialMT"
+      isPointText: false
+      boundsWidth: 284
+      boundsHeight: 30
+      isLabel: true
+      text: ""
+      multiline: true
+      ellipsis: true
+      isAllCaps: true
+    }
+    properties {
+      key: "text-overflow"
+      value: "ellipsis"
+    }
+    properties {
+      key: "text-placeholder"
+      value: "true"
+    }
+  }
+  layer {
+    name: "Button-Scale"
+    id: 18
+    sourceid: 40
+    transform {
+      anchorPoint {
+        x: 0
+        y: 0
+        z: 0
+      }
+      scale {
+        x: 1
+        y: 1
+        z: 1
+      }
+      position {
+        x: 171
+        y: 33
+        z: 0
+      }
+      orientation {
+        x: 0
+        y: 0
+        z: 0
+      }
+      rotationX: 0
+      rotationY: 0
+      rotationZ: 0
+      opacity: 1
+    }
+    acceptsshadows: true
+    acceptslights: true
+    castsshadows: false
+  }
+  classname: "CYIPushButtonView"
+  bgcolor {
+    alpha: 1
+    red: 0
+    green: 0
+    blue: 0
+  }
+  properties {
+    key: "componentType"
+    value: "button"
+  }
+  properties {
+    key: "componentSubtype"
+    value: "push"
+  }
+}
+sources {
+  uid: 44
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509798288345337
+    green: 0.94509798288345337
+    blue: 0.94509798288345337
+  }
+  width: 342
+  height: 4
+  copy_source: false
+}
+sources {
+  uid: 50
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509798288345337
+    green: 0.94509798288345337
+    blue: 0.94509798288345337
+  }
+  width: 4
+  height: 58
+  copy_source: false
+}
+sources {
+  uid: 47
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.94509798288345337
+    green: 0.94509798288345337
+    blue: 0.94509798288345337
+  }
+  width: 4
+  height: 58
+  copy_source: false
+}
+sources {
+  uid: 41
+  srctype: AE_SOLID_SRC
+  color {
+    alpha: 1
+    red: 0.87450999021530151
+    green: 0.11372499912977219
+    blue: 0.274509996175766
+  }
+  width: 342
+  height: 66
+  copy_source: false
+}
+sources {
+  uid: 5
+  srctype: AE_FONT_SRC
+  name: "ArialMT"
+  copy_source: true
+  file_name: "yi_Arial-Regular.ttf"
+}
+sources {
+  uid: 40
+  srctype: AE_NULL_SRC
+  width: 100
+  height: 100
+  copy_source: false
+}

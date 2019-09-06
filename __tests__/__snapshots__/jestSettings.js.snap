@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#202328",
+      "bottom": 0,
+      "justifyContent": "center",
+      "left": 0,
+      "position": "absolute",
+      "right": 0,
+      "top": 0,
+    }
+  }
+  testID="Settings Screen"
+>
+  <Image
+    source={
+      Object {
+        "uri": "res://drawable/default/bokeh_bg_large.png",
+      }
+    }
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#202328",
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 200,
+        "justifyContent": "flex-start",
+        "left": 100,
+        "margin": 40,
+        "position": "absolute",
+        "top": 200,
+        "width": 400,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "margin": 20,
+          "opacity": 1,
+          "padding": 20,
+          "width": 400,
+        }
+      }
+      testID="About Button"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 32,
+          }
+        }
+      >
+        ABOUT
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "margin": 20,
+          "opacity": 1,
+          "padding": 20,
+          "width": 400,
+        }
+      }
+      testID="TOS Button"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 32,
+          }
+        }
+      >
+        TERMS OF SERVICE
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "height": 72,
+          "margin": 20,
+          "opacity": 1,
+          "padding": 20,
+          "width": 400,
+        }
+      }
+      testID="PP Button"
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "color": "white",
+            "fontSize": 32,
+          }
+        }
+      >
+        PRIVACY POLICY
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "bottom": 200,
+        "justifyContent": "flex-start",
+        "left": 600,
+        "position": "absolute",
+        "right": 200,
+        "top": 200,
+      }
+    }
+  >
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "white",
+          "fontSize": 48,
+          "margin": 40,
+          "textAlign": "left",
+        }
+      }
+    >
+      ABOUT
+    </Text>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 24,
+          "height": 450,
+          "marginLeft": 40,
+          "marginRight": 40,
+          "textAlign": "left",
+        }
+      }
+    >
+      RNSampleApp (Beautiful CLOUD over the react native world) - ver 1.0
+    </Text>
+  </View>
+</View>
+`;

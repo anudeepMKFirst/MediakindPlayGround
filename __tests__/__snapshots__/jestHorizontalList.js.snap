@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Composition
+  onTimelinesLoaded={[Function]}
+  source="Lander_Horizontal-Container"
+>
+  <ListRef
+    DEPRECATED_sendUpdatedChildFrames={false}
+    alwaysBounceHorizontal={true}
+    alwaysBounceVertical={false}
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={true}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    name="List-Horizontal"
+    numColumns={1}
+    onCompositionDidLoad={[Function]}
+    onContentSizeChange={null}
+    onEndReachedThreshold={2}
+    onLayout={[MockFunction]}
+    onMomentumScrollBegin={[MockFunction]}
+    onMomentumScrollEnd={[MockFunction]}
+    onResponderGrant={[MockFunction]}
+    onResponderReject={[MockFunction]}
+    onResponderRelease={[MockFunction]}
+    onResponderTerminationRequest={[MockFunction]}
+    onScroll={[MockFunction]}
+    onScrollBeginDrag={[MockFunction]}
+    onScrollEndDrag={[MockFunction]}
+    onScrollShouldSetResponder={[MockFunction]}
+    onStartShouldSetResponder={[MockFunction]}
+    onStartShouldSetResponderCapture={[MockFunction]}
+    onTimelinesLoaded={[Function]}
+    onTouchCancel={[MockFunction]}
+    onTouchEnd={[MockFunction]}
+    onTouchMove={[MockFunction]}
+    onTouchStart={[MockFunction]}
+    renderItem={[Function]}
+    renderScrollComponent={[Function]}
+    scrollBarThumbImage={null}
+    scrollEnabled={true}
+    scrollEventThrottle={50}
+    sendMomentumEvents={true}
+    stickyHeaderIndices={Array []}
+    style={
+      Array [
+        Object {
+          "flexDirection": "row",
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "overflow": "scroll",
+        },
+        undefined,
+      ]
+    }
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <ScrollContentData
+      collapsable={false}
+      onLayout={[MockFunction]}
+      style={
+        Array [
+          Object {
+            "flexDirection": "row",
+          },
+          undefined,
+        ]
+      }
+    />
+  </ListRef>
+  <ViewRef
+    name="List-Horizontal"
+    onCompositionDidLoad={[Function]}
+    onTimelinesLoaded={[Function]}
+  />
+</Composition>
+`;

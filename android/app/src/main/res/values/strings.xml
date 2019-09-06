@@ -1,0 +1,4 @@
+<resources>
+	<string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">nUWDsQHJNamqyrTU509XRqtm0FBwaPHYovt0Z</string>
+    <string name="app_name">YiReactApp</string>
+</resources>

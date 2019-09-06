@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "flexDirection": "row",
+        "height": 8,
+        "top": -241,
+        "width": 920,
+      },
+      Object {
+        "opacity": 0,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#D5A23E",
+        },
+        Object {
+          "flex": NaN,
+        },
+      ]
+    }
+  />
+  <Image
+    source={
+      Object {
+        "uri": "res://drawable/default/Scrubber-Thumb.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 24,
+          "top": -8,
+          "width": 24,
+        },
+        Object {
+          "opacity": 1,
+        },
+      ]
+    }
+  />
+</View>
+`;
